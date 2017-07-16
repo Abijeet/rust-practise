@@ -21,7 +21,7 @@ fn main() {
   if position == -1 {
     println!("The element was not found!");
   } else {
-    println!("The element {} was found at position #{}.", num_search, position);
+    println!("The element {} was found at position #{}.", num_search, position + 1);
   }
 }
 
@@ -74,11 +74,11 @@ fn get_index(arr_search: &[i32], num_search:i32) -> i32 {
     if num_search > curr_val {
       // search value is greater than the current value.
       // value to be looked for is on the right
-      min = avg;
+      min = avg + 1;
     } else {
       // search value is less than the current value.
       // value to be looked for is on the left
-      max = avg;
+      max = avg - 1;
     }
   }
 
