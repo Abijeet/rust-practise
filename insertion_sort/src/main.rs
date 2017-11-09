@@ -11,7 +11,6 @@ fn main() {
 }
 
 fn sort_from_right (arr: &mut [i32], right_index: usize, value: i32) -> &mut [i32] {
-  // println!("{}, {}", right_index, value);
   let mut i = right_index - 1;
   while i != 0 && arr[i] > value {
     // move elements over
