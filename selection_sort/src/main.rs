@@ -3,7 +3,7 @@ fn main(){
     1, 2, 4, 3, 6, 5
   ];
 
-  print_array_with_msg("Before sorting: ".to_string(), &arr);
+  println!("Before: {:?}", arr);
 
   let mut total_loops: usize = 0;
   let array_length = arr.len();
@@ -24,7 +24,7 @@ fn main(){
     arr[min_index] = temp;
     total_loops += 1;
   }
-  print_array_with_msg("After sorting: ".to_string(), &arr);
+  println!("After: {:?}", arr);
 }
 
 fn get_min_index(arr: &[i32], start_index: usize) -> usize {
@@ -47,18 +47,4 @@ fn get_min_index(arr: &[i32], start_index: usize) -> usize {
   }
 
   return smallest_index;
-}
-
-fn print_array_with_msg (msg_to_print: String, arr: &[i32]) {
-   if arr.len() == 0 {
-     return;
-   }
-   print!("{}", msg_to_print);
-   let mut arr_elements: String = String::from("");
-   for element in arr.iter() {
-     arr_elements.push_str(" ");
-     arr_elements.push_str(element.to_string().as_ref());
-   }
-
-   println!("{}", arr_elements.trim());
 }
