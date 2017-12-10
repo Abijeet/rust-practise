@@ -6,14 +6,13 @@ Contains various algorithms and small programs created using Rust.
 
 1. Binary search
 2. Guessing game
-3. Recursion
-  1. Factorial
-  2. Pallindrome
-  3. Power of
-4. Insertion sort
-5. Selection sort
-6. Merge sort
-7. Quick sort
+3. Factorial recursion
+4. Pallindrome recursion
+5. Power of recursion
+6. Insertion sort
+7. Selection sort
+8. Merge sort
+9. Quick sort
 
 ## TODO
 
