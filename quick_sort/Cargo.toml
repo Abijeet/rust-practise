@@ -1,0 +1,6 @@
+[package]
+name = "quick_sort"
+version = "0.1.0"
+authors = ["Abijeet <abijeetpatro@gmail.com>"]
+
+[dependencies]
