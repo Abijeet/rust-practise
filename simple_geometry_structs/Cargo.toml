@@ -1,0 +1,6 @@
+[package]
+name = "simple_geometry_structs"
+version = "0.1.0"
+authors = ["Abijeet <abijeetpatro@gmail.com>"]
+
+[dependencies]
