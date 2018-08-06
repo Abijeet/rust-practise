@@ -1,7 +1,0 @@
-[package]
-name = "simple_browser"
-version = "0.1.0"
-authors = ["Abijeet <abijeetpatro@gmail.com>"]
-
-[dependencies]
-clap = "2.32.0"
